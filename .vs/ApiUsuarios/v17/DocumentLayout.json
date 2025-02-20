@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oscar\\source\\repos\\ApiUsuarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E6B9AF-AFAB-4C8C-9845-709D8DCCEAC0}|ApiUsuarios\\ApiUsuarios.csproj|c:\\users\\oscar\\source\\repos\\apiusuarios\\apiusuarios\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E6B9AF-AFAB-4C8C-9845-709D8DCCEAC0}|ApiUsuarios\\ApiUsuarios.csproj|solutionrelative:apiusuarios\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E6B9AF-AFAB-4C8C-9845-709D8DCCEAC0}|ApiUsuarios\\ApiUsuarios.csproj|c:\\users\\oscar\\source\\repos\\apiusuarios\\apiusuarios\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E6B9AF-AFAB-4C8C-9845-709D8DCCEAC0}|ApiUsuarios\\ApiUsuarios.csproj|solutionrelative:apiusuarios\\services\\encryptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3E6B9AF-AFAB-4C8C-9845-709D8DCCEAC0}|ApiUsuarios\\ApiUsuarios.csproj|c:\\users\\oscar\\source\\repos\\apiusuarios\\apiusuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3E6B9AF-AFAB-4C8C-9845-709D8DCCEAC0}|ApiUsuarios\\ApiUsuarios.csproj|solutionrelative:apiusuarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EncryptionService.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\source\\repos\\ApiUsuarios\\ApiUsuarios\\Services\\EncryptionService.cs",
+              "RelativeDocumentMoniker": "ApiUsuarios\\Services\\EncryptionService.cs",
+              "ToolTip": "C:\\Users\\oscar\\source\\repos\\ApiUsuarios\\ApiUsuarios\\Services\\EncryptionService.cs",
+              "RelativeToolTip": "ApiUsuarios\\Services\\EncryptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T03:54:55.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\source\\repos\\ApiUsuarios\\ApiUsuarios\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "ApiUsuarios\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\oscar\\source\\repos\\ApiUsuarios\\ApiUsuarios\\Controllers\\UserController.cs",
+              "RelativeToolTip": "ApiUsuarios\\Controllers\\UserController.cs",
+              "ViewState": "AgIAALEAAAAAAAAAAAAcwL4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:58:51.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oscar\\source\\repos\\ApiUsuarios\\ApiUsuarios\\Program.cs",
+              "RelativeDocumentMoniker": "ApiUsuarios\\Program.cs",
+              "ToolTip": "C:\\Users\\oscar\\source\\repos\\ApiUsuarios\\ApiUsuarios\\Program.cs",
+              "RelativeToolTip": "ApiUsuarios\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-20T02:49:46.179Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
