@@ -112,7 +112,6 @@ namespace ApiUsuarios.Controllers
 
                 await _userRepository.CreateUserAsync(user);
 
-                // Se asume que MongoDB asigna un Id automáticamente
                 if (string.IsNullOrEmpty(user.Id))
                 {
                     return StatusCode(StatusCodes.Status500InternalServerError, new
@@ -173,7 +172,6 @@ namespace ApiUsuarios.Controllers
                     });
                 }
 
-                // Aseguramos que el id se mantenga igual
                 user.Id = existingUser.Id;
                 user.Puntaje = _userScoreService.CalculateScore(user.Nombre, user.Apellidos, user.CorreoElectronico);
 
@@ -197,7 +195,6 @@ namespace ApiUsuarios.Controllers
                     });
                 }
 
-                // Retornamos el usuario actualizado
                 var updatedUser = await _userRepository.GetUserByIdAsync(id);
                 return Ok(new
                 {
@@ -286,7 +283,6 @@ namespace ApiUsuarios.Controllers
 
             try
             {
-                // Se asume que el front envía la contraseña ya encriptada.
                 var users = await _userRepository.GetUsersAsync();
                 var user = users.FirstOrDefault(u =>
                     u.CorreoElectronico.Equals(loginModel.CorreoElectronico, StringComparison.OrdinalIgnoreCase) &&
@@ -303,13 +299,10 @@ namespace ApiUsuarios.Controllers
                     });
                 }
 
-                // Calcular la clasificación basada en la nueva fecha de acceso
                 user.Clasificacion = _classificationService.GetClassification(user.FechaUltimoAcceso);
                 
-                // Actualizar FechaUltimoAcceso con la fecha y hora actual
                 user.FechaUltimoAcceso = DateTime.UtcNow;
 
-                // Actualiza el usuario en la base de datos
                 bool updated = await _userRepository.UpdateUserAsync(user.Id, user);
                 if (!updated)
                 {
