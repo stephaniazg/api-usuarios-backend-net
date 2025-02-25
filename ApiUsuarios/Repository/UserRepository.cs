@@ -14,9 +14,7 @@ namespace ApiUsuarios.Repository
 
         public UserRepository(IConfiguration configuration)
         {
-            // Obtén la cadena de conexión desde appsettings.json
             var client = new MongoClient(configuration.GetConnectionString("MongoDb"));
-            // Utiliza la base de datos "apiusers"
             var database = client.GetDatabase("apiusers");
             _users = database.GetCollection<UserModel>("users");
         }
