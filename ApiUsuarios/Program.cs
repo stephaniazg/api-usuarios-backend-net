@@ -5,12 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Agregar servicios de CORS
 builder.Services.AddCors(options =>
 {
+    // Allow CORS from fronted
     options.AddPolicy("AllowAngularApp", policy =>
     {
-        // Permitir solo el origen del frontend
         policy.WithOrigins("http://localhost:4200")
               .AllowAnyHeader()
               .AllowAnyMethod();
